@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+}
+.center {
+    text-align: center;
+}
+.header-bg {
+    text-align:center;
+    background-color: #add8e6;
+}
+.menu-bg {
+    background-color: #dcdcdc;
+}
+.services-bg {
+    background-color: #eeeeee;
+}
+.content {
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    margin: 15px;
+}
+a:hover {
+    color: red;
+}
