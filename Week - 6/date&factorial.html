@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code</title>
+</head>
+<body>
+
+<button onclick="dispDate()">Display Date</button>
+<input type="text" id ="datebox" />
+
+ <button onclick="factorial()">Factorial</button>
+
+<script>
+    function dispDate() {
+        var today = new Date();
+
+        let dd = today.getDate();
+        let mm = today.getMonth()+1;
+        let yyyy = today.getFullYear();
+
+        const date = dd + '/' + mm + '/' + yyyy;
+
+        document.getElementById("datebox").value = date;
+    }
+    function factorial() {
+        let n = prompt("Enter a number");
+        n = parseInt(n);
+
+        if(isNaN(n) || n < 0)
+        {
+            alert("Please enter a non-negative number");
+        }
+
+        let fact = 1;
+        for(let i = 1; i <= n; i++)
+        {
+            fact *= i;
+        }
+        alert("The factorial of " + n + " is " + fact);
+    }
+</script>
+
+</body>
+</html>

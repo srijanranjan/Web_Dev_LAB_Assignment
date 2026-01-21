@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiplication Tables</title>
+</head>
+<body>
+
+<h2>Multiplication Table</h2>
+
+<input type ="number" id = "num" placeholder = "Enter a number here">
+<button onclick = "multiTable()">Generate Table</button>
+
+<div id = "result"></div>
+
+<script>
+    function multiTable()
+    {
+        var num = document.getElementById("num").value;
+        num = parseInt(num);
+
+
+        if(isNaN(num)){
+            alert("Please enter a valid number");
+        }
+        else{
+            alert("You entered " + num);
+        }
+
+        let output = "<h3>Multiplication Table for " + num + ":</h3>";
+
+        for(let i = 1; i <= 10; i++){
+            output += num + "x" + i + " = " + num * i + "<br>";
+        }
+
+        document.getElementById("result").innerHTML = output;
+    }
+</script>
+
+</body>
+</html>

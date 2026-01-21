@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Toggle</title>
+</head>
+<body>
+
+<h2>Password Visibility Toggle</h2>
+
+Password:
+<input type="password" id="pwd">
+<br><br>
+
+<input type="checkbox" onclick="togpass()"> Show Password
+
+<script>
+
+  function togpass()
+  {
+    let pwd = document.getElementById("pwd");
+
+    if (pwd.type === "password")  {
+      pwd.type = "text";
+    }
+    else {
+      pwd.type = "password";
+    }
+  }
+
+</script>
+</body>
+</html>
