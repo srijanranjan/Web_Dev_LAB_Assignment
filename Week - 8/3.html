@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Marks Calculator</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="CSS/style_3.css">
+</head>
+<body>
+
+<h2>Enter Marks of 5 Subjects</h2>
+
+<form id="marksForm">
+  Subject 1: <input type="number" id="sub1" min="0" max="100" required><br><br>
+  Subject 2: <input type="number" id="sub2" min="0" max="100" required><br><br>
+  Subject 3: <input type="number" id="sub3" min="0" max="100" required><br><br>
+  Subject 4: <input type="number" id="sub4" min="0" max="100" required><br><br>
+  Subject 5: <input type="number" id="sub5" min="0" max="100" required><br><br>
+
+  <button type="button" onclick="calculateResult()">Calculate</button>
+
+</form>
+
+<h3 id="total"></h3>
+<h3 id="average"></h3>
+<h3 id="grade"></h3>
+
+<!-- External JavaScript -->
+<script src="Scripts/script_2.js"></script>
+
+</body>
+</html>
