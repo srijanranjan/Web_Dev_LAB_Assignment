@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<bookstore
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="book.xsd">
+    <book>
+        <title>Compilers: Principles, Techniques</title>
+        <author>V. Aho, R. Sethi, Mounica and J. Ullman</author>
+        <isbn>978-0321486813</isbn>
+        <publisher>narosa</publisher>
+        <edition>2nd</edition>
+        <price>300</price>
+    </book>
+    <book>
+        <title>Web Technologies</title>
+        <author>Uttam K Roy</author>
+        <isbn>978-0198066224</isbn>
+        <publisher>Oxford</publisher>
+        <edition>1st Edition 7th impression</edition>
+        <price>2505</price>
+    </book>
+    <book>
+        <title>Internet and World Wide Web - How to program</title>
+        <author>Dietel and Nieto</author>
+        <isbn>978-8131725221</isbn>
+        <publisher>PHI/Pearson Education</publisher>
+        <edition>1st Edition 7th impression</edition>
+        <price>430</price>
+    </book>
+    <book>
+        <title>Artificial Intelligence</title>
+        <author>George F Lugar</author>
+        <isbn>9780321545893</isbn>
+        <publisher>Pearson</publisher>
+        <edition>2nd</edition>
+        <price>430</price>
+    </book>
+</bookstore>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="users.xsl"?>
+<users>
+    <user>
+        <id>2023000102</id>
+        <name>Kamal Rao</name>
+        <Department>CSE AIML</Department>
+        <Section>A</Section>
+    </user>
+    <user>
+        <id>2023003370</id>
+        <name>Rajneesh Dwivedi</name>
+        <Department>CSE Core</Department>
+        <Section>P</Section>
+    </user>
+    <user>
+        <id>2023000203</id>
+        <name>Mohan Vardhan</name>
+        <Department>CSE IOT</Department>
+        <Section>F</Section>
+    </user>
+    <user>
+        <id>2023006315</id>
+        <name>Srijan Ranjan</name>
+        <Department>CSE Core</Department>
+        <Section>V</Section>
+    </user>
+    <user>
+        <id>2023006506</id>
+        <name>Swaroop</name>
+        <Department>CSE Core</Department>
+        <Section>V</Section>
+    </user>
+    <user>
+        <id>2023004218</id>
+        <name>Sachin Agrawal</name>
+        <Department>CSE DS</Department>
+        <Section>U</Section>
+    </user>
+    <user>
+        <id>2023000112</id>
+        <name>P Omakr</name>
+        <Department>CSE AIML</Department>
+        <Section>A</Section>
+    </user>
+    <user>
+        <id>202300606</id>
+        <name>Turshar</name>
+        <Department>CSE CS</Department>
+        <Section>F</Section>
+    </user>
+    <user>
+        <id>2023001102</id>
+        <name>Heramb Singh</name>
+        <Department>CSE CS</Department>
+        <Section>E</Section>
+    </user>
+    <user>
+        <id>2023007083</id>
+        <name>Naitik Patnaik</name>
+        <Department>CSE Core</Department>
+        <Section>R</Section>
+    </user>
+</users>
